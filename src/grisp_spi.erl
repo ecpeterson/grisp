@@ -64,6 +64,7 @@
 -export([open/1]).
 -export([open/2]).
 -export([transfer/2]).
+-export_type([ref/0, bus/0]).
 
 % Callbacks
 -export([on_load/0]).
